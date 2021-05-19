@@ -64,6 +64,7 @@ const MainPageMovieContainer = (props) => {
     };
 
     fetchMovieData(props.query);
+    
   }, [props.update, props.query, props.message]);
 
   let movieList = topTenMovies.map((movie, i) => {
